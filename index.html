@@ -9,9 +9,7 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-        <!-- link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet' -->
-
-        <title>Portfolio website complete</title>
+        <title>Portfolio Matteo Pesci</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -27,6 +25,7 @@
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -41,7 +40,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Welcome,<br>I'm <span class="home__title-color">Matteo</span><br> Java & Python <br> Developer and <br> Biomedical <br> Engineer </h1>
+                    <h1 class="home__title">Welcome,<br>I'm <span class="home__title-color">Matteo</span><br> Java & Python <br> Developer, <br> Biomedical <br> Engineer </h1>
                     <a href="#contact" class="button">Contact</a>
                 </div>
 
@@ -88,11 +87,12 @@
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">My main informatics skills:</p>
+                
+                <!-- Informatic Skills Section -->
+                <div class="skills__container bd-grid">
+                    <div class="skills-column">
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">Core informatic skills:</p>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-java skills__icon'></i>
@@ -107,7 +107,13 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon' ></i>
+                                <i class='bx bxl-spring-boot skills__icon'></i>
+                                <span class="skills__name">Spring Boot</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
                                 <span class="skills__name">HTML5</span>
                             </div>
                         </div>
@@ -115,15 +121,49 @@
                             <div class="skills__names">
                                 <i class='bx bxs-data skills__icon'></i>
                                 <span class="skills__name">SQL</span>
-                            </div>    
+                            </div>
                         </div>
                     </div>
-                    <div>              
+                    <div class="skills__img-container">
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>
                 </div>
+            
+                <!-- Biomedical Skills Section -->
+                <div class="skills__container bd-grid">
+                    <div class="skills-column">
+                        <p class="skills__text">Key biomedical skills:</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-stats skills__icon'></i>
+                                <span class="skills__name">Matlab</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-cog skills__icon'></i>
+                                <span class="skills__name">SPM, FreeSurfer</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-brain skills__icon'></i>
+                                <span class="skills__name">MRI, fMRI, DCE-MRI</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-pulse skills__icon'></i>
+                                <span class="skills__name">EMG, ECG, EEG</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__img-container">
+                        <img src="assets/img/work7.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
             </section>
-
+            
             <!--===== WORK =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
@@ -146,6 +186,24 @@
                     </a>
                     <a href="" class="work__img">
                         <img src="assets/img/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CERTIFICATIONS =====-->
+
+            <section class="certifications section" id="certifications">
+                <h2 class="section-title">Certifications</h2>
+                
+                <div class="certifications__container bd-grid">
+                    <a href="https://www.udemy.com/certificate/UC-3ee3f63f-2292-4685-b964-b47b555336d7/" class="certification__img">
+                        <img src="assets/img/UC-3ee3f63f-2292-4685-b964-b47b555336d7.jpg" alt="">
+                    </a>
+                    <a href="https://www.udemy.com/certificate/UC-238103e0-4f38-4f14-8316-d3451ddc4a6d/" class="certification__img">
+                        <img src="assets/img/UC-238103e0-4f38-4f14-8316-d3451ddc4a6d.jpg" alt="">
+                    </a>
+                    <a href="https://www.udemy.com/certificate/UC-143c3cc3-5154-4041-a048-8a3c9d4ce128/" class="certification__img">
+                        <img src="assets/img/UC-143c3cc3-5154-4041-a048-8a3c9d4ce128.jpg" alt="">
                     </a>
                 </div>
             </section>

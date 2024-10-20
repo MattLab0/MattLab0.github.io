@@ -282,9 +282,14 @@ img {
   display: flex;
   align-items: center;
 }
+.skills__img-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
 .skills__img {
   border-radius: 0.5rem;
-}
+} 
 
 /* ===== WORK =====*/
 .work__container {
@@ -299,6 +304,35 @@ img {
   transition: 1s;
 }
 .work__img img:hover {
+  transform: scale(1.1);
+}
+
+/* ===== CERTIFICATIONS =====*/
+.certifications__container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .certifications__container {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+  }
+}
+.certification__img {
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: 1s;
+}
+.certification__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: 1s;
+}
+.certification__img:hover img {
   transform: scale(1.1);
 }
 
