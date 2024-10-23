@@ -257,6 +257,7 @@ img {
   text-align: center;
 }
 .skills__subtitle {
+  margin-top: var(--mb-2);
   margin-bottom: var(--mb-2);
 }
 .skills__text {
