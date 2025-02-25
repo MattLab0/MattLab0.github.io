@@ -286,6 +286,7 @@ img {
 .skills__img-container {
   display: flex;
   justify-content: center;
+  padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 .skills__img {
@@ -483,7 +484,7 @@ img {
     text-align: initial;
   }
   .work__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
 }
